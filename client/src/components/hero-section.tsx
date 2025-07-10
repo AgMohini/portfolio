@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Download } from "lucide-react";
 import profileImage from "@assets/citations_1752118126741.jpeg";
+import resumePdf from "@assets/Mohini_Agarwal_Data_Scientist_Resume_1752117388006.pdf";
 
 export default function HeroSection() {
   const scrollToContact = () => {
@@ -8,6 +9,15 @@ export default function HeroSection() {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
+  };
+
+  const downloadResume = () => {
+    const link = document.createElement('a');
+    link.href = resumePdf;
+    link.download = 'Mohini_Agarwal_Data_Scientist_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
@@ -50,6 +60,7 @@ export default function HeroSection() {
               </Button>
               <Button 
                 variant="outline" 
+                onClick={downloadResume}
                 className="border-2 border-white text-white bg-transparent hover:bg-white hover:text-blue-900 px-8 py-3 rounded-lg font-semibold transition-all duration-200 shadow-lg hover:shadow-xl"
               >
                 <Download className="mr-2 h-4 w-4" />
