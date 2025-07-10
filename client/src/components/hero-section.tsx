@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Download } from "lucide-react";
+import profileImage from "@assets/citations_1752118126741.jpeg";
 
 export default function HeroSection() {
   const scrollToContact = () => {
@@ -59,9 +60,9 @@ export default function HeroSection() {
           
           <div className="flex justify-center">
             <img 
-              src="https://images.unsplash.com/photo-1494790108755-2616c667d023?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=500" 
+              src={profileImage} 
               alt="Dr. Mohini Agarwal - Data Scientist" 
-              className="rounded-2xl shadow-2xl max-w-sm w-full"
+              className="rounded-2xl shadow-2xl max-w-sm w-full object-cover"
             />
           </div>
         </div>
