@@ -13,22 +13,22 @@ export interface Experience {
 export const experiences: Experience[] = [
   {
     id: "instructor-gcu",
-    title: "Instructor – Data Science & Statistics",
+    title: "Instructor – Statistics and Mathematics",
     company: "Grand Canyon University",
     location: "AZ",
     startDate: "2023",
     endDate: "Present",
     current: true,
     description: [
-      "Teaching courses in Python, machine learning, and data visualization to graduate students",
-      "Developing real-world case studies for logistics forecasting, route optimization, and model validation",
-      "Guiding student projects focused on practical applications through dashboard development",
-      "Delivering comprehensive sessions on model interpretability and governance"
+      "Teaching Statistical and Mathematical modeling to graduate and undergraduate students",
+      "Developing real-world case studies for statistical analysis and mathematical optimization",
+      "Guiding student projects focused on practical applications of statistical methods",
+      "Delivering comprehensive sessions on statistical inference and mathematical modeling"
     ],
     highlights: [
-      "Improved student engagement through hands-on ML projects",
-      "Developed industry-relevant curriculum for data science programs",
-      "Mentored 50+ students in practical data science applications"
+      "Improved student engagement through hands-on statistical projects",
+      "Developed industry-relevant curriculum for statistics and mathematics programs",
+      "Mentored 50+ students in practical statistical applications"
     ]
   },
   {

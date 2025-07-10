@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
-import { Mail, Phone, MapPin, Linkedin, Github, GraduationCap } from "lucide-react";
+import { Mail, MapPin, Linkedin, Github, GraduationCap } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 export default function Contact() {
@@ -77,13 +77,7 @@ export default function Contact() {
                   <div className="text-blue-200">mohini15oct@gmail.com</div>
                 </div>
               </div>
-              <div className="flex items-center">
-                <Phone className="text-emerald mr-4 h-5 w-5" />
-                <div>
-                  <div className="font-medium">Phone</div>
-                  <div className="text-blue-200">(623) 274-7601</div>
-                </div>
-              </div>
+
               <div className="flex items-center">
                 <MapPin className="text-emerald mr-4 h-5 w-5" />
                 <div>

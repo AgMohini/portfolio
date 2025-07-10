@@ -1,4 +1,4 @@
-import profileImage from "@assets/citations_1752118126741.jpeg";
+import orLogo from "@assets/or-logo_1752129325378.png";
 
 export default function Education() {
   const educationData = [
@@ -6,7 +6,7 @@ export default function Education() {
       degree: "Ph.D. in Operations Research and Statistics",
       period: "2013 - 2018",
       description: "Specialization in mathematical modeling, optimization, and statistical analysis with focus on practical business applications.",
-      image: profileImage
+      image: orLogo
     },
     {
       degree: "M.S. in Data Science",
