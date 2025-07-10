@@ -27,9 +27,11 @@ git push origin main
 3. **Click "New Project"**
 4. **Import** your GitHub repo: `AgMohini/portfolio`
 5. **Configure**:
+   - Framework Preset: `Vite`
    - Build Command: `npm run build`
    - Output Directory: `dist/public`
    - Install Command: `npm install`
+   - Node.js Version: `18.x`
 6. **Deploy** - Get URL like: `https://portfolio-agmohini.vercel.app`
 
 ### Option B: Netlify
