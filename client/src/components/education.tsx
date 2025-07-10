@@ -32,7 +32,7 @@ export default function Education() {
               <img 
                 src={edu.image} 
                 alt={edu.degree}
-                className="w-full h-48 object-cover rounded-lg mb-6"
+                className={`w-full ${index === 0 ? 'h-32 object-contain bg-white' : 'h-48 object-cover'} rounded-lg mb-6`}
               />
               <h3 className="text-xl font-semibold text-navy mb-2">{edu.degree}</h3>
               <p className="text-emerald font-medium mb-2">{edu.period}</p>
