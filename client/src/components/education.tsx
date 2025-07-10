@@ -1,10 +1,12 @@
+import profileImage from "@assets/citations_1752118126741.jpeg";
+
 export default function Education() {
   const educationData = [
     {
       degree: "Ph.D. in Operations Research and Statistics",
       period: "2013 - 2018",
       description: "Specialization in mathematical modeling, optimization, and statistical analysis with focus on practical business applications.",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400"
+      image: profileImage
     },
     {
       degree: "M.S. in Data Science",
