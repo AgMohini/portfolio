@@ -1,0 +1,42 @@
+CRITICAL FILES TO UPLOAD TO GITHUB:
+
+=== MUST UPLOAD THESE FOLDERS ===
+client/                    (Your entire React application)
+server/                    (Backend code)
+shared/                    (Shared types)
+attached_assets/          (Your images - profile, logo, etc.)
+
+=== MUST UPLOAD THESE FILES ===
+.github/workflows/deploy.yml    (Auto-deployment to GitHub Pages)
+package.json                    (Dependencies)
+package-lock.json              (Lock file)
+vite.config.ts                 (Build configuration)
+vite.config.github.ts          (GitHub Pages specific config)
+tailwind.config.ts             (Styling)
+tsconfig.json                  (TypeScript config)
+components.json                (UI components)
+postcss.config.js              (CSS processing)
+drizzle.config.ts              (Database config)
+
+=== DEPLOYMENT CONFIGS ===
+vercel.json                    (Vercel deployment)
+netlify.toml                   (Netlify deployment)
+railway.json                   (Railway deployment)
+
+=== DOCUMENTATION ===
+README.md                      (Project documentation)
+GITHUB-PAGES-SETUP.md          (Deployment guide)
+UPLOAD-TO-GITHUB.md            (This guide)
+DEPLOY-INSTRUCTIONS.md         (Multi-platform deployment)
+VERCEL-SETTINGS.md             (Vercel configuration)
+CUSTOM-DOMAIN-SETUP.md         (Custom domain guide)
+
+=== DO NOT UPLOAD ===
+node_modules/                  (Too large, will be installed automatically)
+dist/                          (Build output, created automatically)
+.replit                        (Replit specific)
+
+AFTER UPLOAD:
+- GitHub Actions will automatically build and deploy
+- Your site will be live at: https://agmohini.github.io/portfolio/
+- Professional portfolio ready for job applications
