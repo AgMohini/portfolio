@@ -5,7 +5,7 @@ import ExperienceTimeline from "@/components/experience-timeline";
 import ProjectsPortfolio from "@/components/projects-portfolio";
 import PublicationsResearch from "@/components/publications-research";
 import Education from "@/components/education";
-import Contact from "@/components/contact";
+import ContactStatic from "@/components/contact-static";
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
       <ProjectsPortfolio />
       <PublicationsResearch />
       <Education />
-      <Contact />
+      <ContactStatic />
       
       {/* Footer */}
       <footer className="bg-charcoal text-white py-8">
