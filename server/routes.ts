@@ -21,7 +21,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       // You can integrate with email services like SendGrid, Mailgun, etc.
       // const emailService = new EmailService();
       // await emailService.sendEmail({
-      //   to: "mohinideep0305@gmail.com",
+      //   to: "mohini15oct@gmail.com",
       //   subject: `New message from ${name}`,
       //   text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`
       // });

@@ -74,7 +74,7 @@ export default function Contact() {
                 <Mail className="text-emerald mr-4 h-5 w-5" />
                 <div>
                   <div className="font-medium">Email</div>
-                  <div className="text-blue-200">mohinideep0305@gmail.com</div>
+                  <div className="text-blue-200">mohini15oct@gmail.com</div>
                 </div>
               </div>
               <div className="flex items-center">

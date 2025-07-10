@@ -18,7 +18,7 @@ export default function HeroSection() {
               Bridging Academia & Industry Through Data Science
             </h1>
             <p className="text-xl mb-8 text-blue-100">
-              PhD in Operations Research with 8+ years of experience transforming complex data into strategic business insights. Ready to drive data-driven innovation in corporate environments.
+              PhD in Operations Research with 8+ years of experience in machine learning and deep learning. Expertise in CNN, neural networks, and AWS deployment. Ready to drive data-driven innovation in corporate environments.
             </p>
             
             <div className="flex flex-wrap gap-4 mb-8">

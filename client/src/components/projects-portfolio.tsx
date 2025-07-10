@@ -4,46 +4,64 @@ import { Github, ExternalLink } from "lucide-react";
 export default function ProjectsPortfolio() {
   const projects = [
     {
-      title: "News Text Classification",
-      description: "Multi-label classification using SVM and Logistic Regression with LIME interpretability and drift detection using Cohen's H.",
+      title: "CNN Image Classification (AWS Deployed)",
+      description: "Convolutional Neural Network for image classification deployed on AWS Free Tier, showcasing end-to-end deep learning pipeline from model training to production deployment.",
+      image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      tags: ["Python", "CNN", "TensorFlow", "AWS", "Deep Learning"],
+      github: "https://github.com/AgMohini/machine_learning_projects",
+      featured: true
+    },
+    {
+      title: "Artificial Neural Networks (ANN)",
+      description: "Deep neural network implementation using TensorFlow and Keras for predictive modeling on structured datasets with hyperparameter tuning and cross-validation.",
+      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      tags: ["Python", "ANN", "TensorFlow", "Keras", "Deep Learning"],
+      github: "https://github.com/AgMohini/machine_learning_projects/blob/main/ANN_Mohini.ipynb",
+      featured: true
+    },
+    {
+      title: "News Text Classification with Model Governance",
+      description: "Multi-label classification using SVM and Logistic Regression with LIME interpretability, drift detection using Cohen's H, and comprehensive model governance metrics.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      tags: ["Python", "SVM", "LIME", "NLP"],
-      github: "https://github.com/AgMohini/machine_learning_projects/blob/main/news_classifier_with_model_governance_metrics.ipynb"
+      tags: ["Python", "SVM", "LIME", "NLP", "Model Governance"],
+      github: "https://github.com/AgMohini/machine_learning_projects/blob/main/news_classifier_with_model_governance_metrics.ipynb",
+      featured: true
+    },
+    {
+      title: "Semantic Analysis with Sentence Transformers",
+      description: "Deep learning-based text embeddings using Sentence Transformers to categorize and compare research abstracts with advanced NLP techniques.",
+      image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      tags: ["Python", "NLP", "Transformers", "Deep Learning"],
+      github: "https://github.com/AgMohini/machine_learning_projects/blob/main/semantic_analysis.ipynb",
+      featured: true
     },
     {
       title: "Apple Stock Price Prediction",
-      description: "Time series forecasting using ARIMA and regression models with comprehensive model diagnostics and evaluation.",
+      description: "Time series forecasting using ARIMA and advanced regression models with comprehensive model diagnostics and evaluation metrics.",
       image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
       tags: ["Python", "ARIMA", "Time Series", "Finance"],
       github: "https://github.com/AgMohini/machine_learning_projects/blob/main/Apple%20Stock%20Price%20Prediction.ipynb"
     },
     {
-      title: "Recommendation System",
-      description: "Collaborative filtering model for personalized item recommendations with user-based and item-based approaches.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      tags: ["Python", "Collaborative Filtering", "ML"],
-      github: "https://github.com/AgMohini/machine_learning_projects/blob/main/Collaborative_Filtering_Model.ipynb"
-    },
-    {
-      title: "Credit Approval System",
-      description: "Classification model for loan approval decisions using ensemble methods with feature importance analysis.",
-      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      tags: ["Python", "Classification", "Finance"],
-      github: "https://github.com/AgMohini/machine_learning_projects/blob/main/CreditApproval.ipynb"
-    },
-    {
-      title: "Anomaly Detection",
-      description: "Multiple techniques including Isolation Forest and One-Class SVM for detecting anomalies in network traffic.",
+      title: "Anomaly Detection with Multiple Techniques",
+      description: "Advanced anomaly detection using Isolation Forest and One-Class SVM to detect anomalies in network traffic with dimensionality reduction visualization.",
       image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      tags: ["Python", "Isolation Forest", "SVM"],
+      tags: ["Python", "Isolation Forest", "SVM", "Anomaly Detection"],
       github: "https://github.com/AgMohini/machine_learning_projects/blob/main/anomaly-detection-multiple-techniques.ipynb"
     },
     {
-      title: "Semantic Analysis",
-      description: "Deep learning-based text embeddings using Sentence Transformers to categorize and compare research abstracts.",
-      image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      tags: ["Python", "NLP", "Transformers"],
-      github: "https://github.com/AgMohini/machine_learning_projects/blob/main/semantic_analysis.ipynb"
+      title: "Credit Approval System",
+      description: "Classification model for loan approval decisions using ensemble methods with feature importance analysis and model interpretability.",
+      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      tags: ["Python", "Classification", "Finance", "Ensemble Methods"],
+      github: "https://github.com/AgMohini/machine_learning_projects/blob/main/CreditApproval.ipynb"
+    },
+    {
+      title: "Collaborative Filtering Recommendation System",
+      description: "Personalized recommendation system using collaborative filtering with user-based and item-based approaches for enhanced user experience.",
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      tags: ["Python", "Collaborative Filtering", "Recommender Systems"],
+      github: "https://github.com/AgMohini/machine_learning_projects/blob/main/Collaborative_Filtering_Model.ipynb"
     }
   ];
 

@@ -46,11 +46,13 @@ export default function TechnicalSkills() {
               <h3 className="text-xl font-semibold">Machine Learning</h3>
             </div>
             <div className="flex flex-wrap gap-2">
+              <span className="bg-emerald/20 text-emerald px-3 py-1 rounded-full text-sm font-medium">CNN</span>
+              <span className="bg-emerald/20 text-emerald px-3 py-1 rounded-full text-sm font-medium">Deep Learning</span>
               <span className="bg-navy/10 text-navy px-3 py-1 rounded-full text-sm">TensorFlow</span>
-              <span className="bg-navy/10 text-navy px-3 py-1 rounded-full text-sm">Scikit-learn</span>
-              <span className="bg-navy/10 text-navy px-3 py-1 rounded-full text-sm">XGBoost</span>
               <span className="bg-navy/10 text-navy px-3 py-1 rounded-full text-sm">Keras</span>
               <span className="bg-navy/10 text-navy px-3 py-1 rounded-full text-sm">Neural Networks</span>
+              <span className="bg-navy/10 text-navy px-3 py-1 rounded-full text-sm">Scikit-learn</span>
+              <span className="bg-navy/10 text-navy px-3 py-1 rounded-full text-sm">XGBoost</span>
               <span className="bg-navy/10 text-navy px-3 py-1 rounded-full text-sm">SVM</span>
             </div>
           </div>
@@ -66,6 +68,34 @@ export default function TechnicalSkills() {
               <span className="bg-navy/10 text-navy px-3 py-1 rounded-full text-sm">Plotly</span>
               <span className="bg-navy/10 text-navy px-3 py-1 rounded-full text-sm">Time Series</span>
               <span className="bg-navy/10 text-navy px-3 py-1 rounded-full text-sm">Predictive Modeling</span>
+            </div>
+          </div>
+        </div>
+        
+        {/* Deployment & Cloud Skills */}
+        <div className="mt-8 bg-gradient-to-r from-emerald/10 to-navy/10 rounded-xl p-6 border border-emerald/20">
+          <div className="text-center mb-6">
+            <h3 className="text-xl font-semibold text-navy">Production Deployment Experience</h3>
+            <p className="text-slate mt-2">End-to-end ML pipeline from development to production</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="text-center">
+              <div className="bg-emerald/20 text-emerald px-4 py-2 rounded-lg font-medium mb-2">
+                AWS Free Tier
+              </div>
+              <p className="text-sm text-slate">Cloud model deployment</p>
+            </div>
+            <div className="text-center">
+              <div className="bg-emerald/20 text-emerald px-4 py-2 rounded-lg font-medium mb-2">
+                CNN Models
+              </div>
+              <p className="text-sm text-slate">Image classification in production</p>
+            </div>
+            <div className="text-center">
+              <div className="bg-emerald/20 text-emerald px-4 py-2 rounded-lg font-medium mb-2">
+                Model Monitoring
+              </div>
+              <p className="text-sm text-slate">Performance tracking & drift detection</p>
             </div>
           </div>
         </div>
