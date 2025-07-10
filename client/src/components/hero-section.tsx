@@ -11,33 +11,33 @@ export default function HeroSection() {
   };
 
   return (
-    <section id="about" className="bg-gradient-to-r from-navy to-navy-dark text-white">
+    <section id="about" className="bg-gradient-to-r from-blue-900 to-blue-800 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-white">
               Bridging Academia & Industry Through Data Science
             </h1>
-            <p className="text-xl mb-8 text-blue-100">
+            <p className="text-xl mb-8 text-gray-100">
               PhD in Operations Research with 8+ years of experience in machine learning and deep learning. Expertise in CNN, neural networks, and AWS deployment. Ready to drive data-driven innovation in corporate environments.
             </p>
             
             <div className="flex flex-wrap gap-4 mb-8">
               <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
                 <div className="text-2xl font-bold text-white">412</div>
-                <div className="text-sm text-blue-200">Citations</div>
+                <div className="text-sm text-gray-300">Citations</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
                 <div className="text-2xl font-bold text-white">12</div>
-                <div className="text-sm text-blue-200">h-index</div>
+                <div className="text-sm text-gray-300">h-index</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
                 <div className="text-2xl font-bold text-white">17</div>
-                <div className="text-sm text-blue-200">ML Projects</div>
+                <div className="text-sm text-gray-300">ML Projects</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
                 <div className="text-2xl font-bold text-white">8+</div>
-                <div className="text-sm text-blue-200">Years Experience</div>
+                <div className="text-sm text-gray-300">Years Experience</div>
               </div>
             </div>
             
